@@ -1,4 +1,4 @@
-### Overview:
+### Starter Kits
 
 Laravel provides several starter kits.
 
@@ -7,6 +7,8 @@ Laravel provides several starter kits.
 - Laravel Jetstream (v2): https://github.com/laravel/jetstream
 - Laravel UI (v3, legacy): https://github.com/laravel/ui
 
+### Stacks
+
 These starter kits contain different stacks.
 
 - Laravel Install: Blade, Laravel Mix.
@@ -14,13 +16,13 @@ These starter kits contain different stacks.
 - Laravel Jetstream: Blade, Livewire, Laravel Mix, Tailwind CSS, Laravel Sanctum, Laravel Fortify.
 - Laravel UI: Blade, Laravel Mix, Bootstrap CSS.
 
-### Test Suites:
+### Test Suites
 
 - Laravel Breeze: https://github.com/laravel/breeze/tree/1.x/stubs/default/tests
 - Laravel Jetstream: https://github.com/laravel/jetstream/tree/2.x/tests
 - Laravel UI: https://github.com/DCzajkowski/auth-tests
 
-### Preparation:
+### Preparation
 
 - Install `php` command and `compose` dependency manager.
 - Add `~/.composer/vendor/bin` to your `PATH`.
