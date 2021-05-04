@@ -40,3 +40,14 @@ Laravel Installer 4.2.4
 - Install Laravel UI with `composer require laravel/ui --dev`.
 - Scaffold Laravel UI with `php artisan ui bootstrap --auth`.
 - Compile fresh scaffolding with `npm install && npm run dev`.
+
+### `laravel-tailwind-app`
+
+- Create Laravel app with `laravel new laravel-tailwind-app`.
+- Install Laravel's front-end dependencies using `npm install`.
+- Install Tailwind and its peer-dependencies: `npm install -D tailwindcss@latest postcss@latest autoprefixer@latest`.
+- Create Tailwind configuration file: `npx tailwindcss init`.
+- Configure Tailwind to remove unused styles in `tailwind.config.js`.
+- Configure Tailwind with Laravel Mix in `webpack.mix.js`.
+- Include Tailwind in application CSS in `resources/css/app.css`.
+- Import stylesheet in application Blade layout in `resources/views/layouts/app.blade.php`.
