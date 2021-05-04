@@ -1,3 +1,12 @@
+### Overview:
+
+Laravel provides several starter kits with different stacks.
+
+- Laravel Installer (v4): https://github.com/laravel/installer
+- Laravel Breeze (v1): https://github.com/laravel/breeze
+- Laravel Jetstream (v2): https://github.com/laravel/jetstream
+- Laravel UI (v3, legacy): https://github.com/laravel/ui
+
 ### Preparation:
 
 - Install `php` command and `compose` dependency manager.
@@ -15,6 +24,12 @@ Laravel Installer 4.2.4
 
 ### `laravel-breeze-app`
 
-- Create Laravel app with `laravel new laravel-app`.
+- Create Laravel app with `laravel new laravel-breeze-app`.
 - Install Laravel Breeze with `composer require laravel/breeze --dev`.
 - Scaffold Laravel Breeze with `php artisan breeze:install`.
+
+### `laravel-jetstream-app`
+
+- Create Laravel app with `laravel new laravel-jetstream-app`.
+- Install Laravel Breeze with `composer require laravel/jetstream --dev`.
+- Scaffold Laravel Breeze with `php artisan jetstream:install livewire --teams`.
