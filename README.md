@@ -14,6 +14,12 @@ These starter kits contain different stacks.
 - Laravel Jetstream: Blade, Livewire, Laravel Mix, Tailwind CSS, Laravel Sanctum, Laravel Fortify.
 - Laravel UI: Blade, Laravel Mix, Bootstrap CSS.
 
+### Test Suites:
+
+- Laravel Breeze: https://github.com/laravel/breeze/tree/1.x/stubs/default/tests
+- Laravel Jetstream: https://github.com/laravel/jetstream/tree/2.x/tests
+- Laravel UI: https://github.com/DCzajkowski/auth-tests
+
 ### Preparation:
 
 - Install `php` command and `compose` dependency manager.
