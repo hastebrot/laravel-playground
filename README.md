@@ -11,4 +11,10 @@ Laravel Installer 4.2.4
 
 ### `laravel-app`
 
-- Scaffold Laravel with `laravel new laravel-app`.
+- Create Laravel app with `laravel new laravel-app`.
+
+### `laravel-breeze-app`
+
+- Create Laravel app with `laravel new laravel-app`.
+- Install Laravel Breeze with `composer require laravel/breeze --dev`.
+- Scaffold Laravel Breeze with `php artisan breeze:install`.
