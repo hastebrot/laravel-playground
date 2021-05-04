@@ -21,25 +21,29 @@ Laravel Installer 4.2.4
 ### `laravel-app`
 
 - Create Laravel app with `laravel new laravel-app`.
+- Compile front-end assets with Laravel Mix using `npm install && npm run dev`.
 
 ### `laravel-breeze-app`
 
 - Create Laravel app with `laravel new laravel-breeze-app`.
 - Install Laravel Breeze with `composer require laravel/breeze --dev`.
 - Scaffold Laravel Breeze with `php artisan breeze:install`.
+- Compile front-end assets with Laravel Mix using `npm install && npm run dev`.
 
 ### `laravel-jetstream-app`
 
 - Create Laravel app with `laravel new laravel-jetstream-app`.
 - Install Laravel Jetstream with `composer require laravel/jetstream --dev`.
 - Scaffold Laravel Jetstream with `php artisan jetstream:install livewire --teams`.
+- Compile front-end assets with Laravel Mix using `npm install && npm run dev`.
+- Publish Livewire stack's Blade components with `php artisan vendor:publish --tag=jetstream-views`.
 
 ### `laravel-ui-app`
 
 - Create Laravel app with `laravel new laravel-ui-app`.
 - Install Laravel UI with `composer require laravel/ui --dev`.
 - Scaffold Laravel UI with `php artisan ui bootstrap --auth`.
-- Compile fresh scaffolding with `npm install && npm run dev`.
+- Compile front-end assets with Laravel Mix using `npm install && npm run dev`.
 
 ### `laravel-tailwind-app`
 
