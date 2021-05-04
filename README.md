@@ -1,11 +1,18 @@
 ### Overview:
 
-Laravel provides several starter kits with different stacks.
+Laravel provides several starter kits.
 
 - Laravel Installer (v4): https://github.com/laravel/installer
 - Laravel Breeze (v1): https://github.com/laravel/breeze
 - Laravel Jetstream (v2): https://github.com/laravel/jetstream
 - Laravel UI (v3, legacy): https://github.com/laravel/ui
+
+These starter kits contain different stacks.
+
+- Laravel Install: Blade, Laravel Mix.
+- Laravel Breeze: Blade, Laravel Mix, Tailwind CSS.
+- Laravel Jetstream: Blade, Livewire, Laravel Mix, Tailwind CSS, Laravel Sanctum, Laravel Fortify.
+- Laravel UI: Blade, Laravel Mix, Bootstrap CSS.
 
 ### Preparation:
 
